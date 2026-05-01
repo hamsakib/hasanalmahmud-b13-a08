@@ -4,7 +4,7 @@ A modern livestock marketplace where users can explore animals for Qurbani (cows
 
 ## 🔗 Live URL
 
-[https://qurbanihat.vercel.app](https://qurbanihat.vercel.app)
+[https://hasanalmahmud-b13-a08.vercel.app](https://hasanalmahmud-b13-a08.vercel.app)
 
 ## ✨ Key Features
 
