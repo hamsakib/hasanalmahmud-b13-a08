@@ -1,16 +1,54 @@
-# React + Vite
+# QurbaniHat – Livestock Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern livestock marketplace where users can explore animals for Qurbani (cows and goats), view details, and place a booking after authentication.
 
-Currently, two official plugins are available:
+## 🔗 Live URL
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://qurbanihat.vercel.app](https://qurbanihat.vercel.app)
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse all available Qurbani animals (cows & goats) with sort by price
+- Full animal details page with weight, breed, age, location, and description
+- Secure booking form (login required) with toast confirmation
+- Email/password and Google authentication via Firebase
+- User profile page showing name, email, and profile photo
+- Update profile (name & photo URL) feature
+- Fully responsive on mobile, tablet, and desktop
+- Smooth animations using Animate.css
+- Protected routes — details and profile require login
+- 404 Not Found page
 
-## Expanding the ESLint configuration
+## 📦 NPM Packages Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Package | Purpose |
+|---|---|
+| `react-router-dom` | Client-side routing |
+| `firebase` | Authentication (Email/Password + Google) |
+| `react-hot-toast` | Toast notifications |
+| `animate.css` | CSS animations |
+| `tailwindcss` | Utility-first CSS styling |
+| `@tailwindcss/vite` | Tailwind v4 Vite plugin |
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/your-username/qurbanihat.git
+cd qurbanihat
+npm install
+```
+
+Create a `.env.local` file with your Firebase config:
+
+```
+VITE_apiKey=your_api_key
+VITE_authDomain=your_auth_domain
+VITE_projectId=your_project_id
+VITE_storageBucket=your_storage_bucket
+VITE_messagingSenderId=your_messaging_sender_id
+VITE_appId=your_app_id
+```
+
+```bash
+npm run dev
+```
